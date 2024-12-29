@@ -16,14 +16,13 @@ body {
     /*You might have to use a flex shorthand*/
 }
 
-.hero-header { 
+.hero-header {
     display: flex;
     justify-content: space-between;
     margin-left: 5%;
     margin-right: 5%;
     flex: 0 1 auto;
 }
-
 
 .header-logo-container {
     font-size: 24px;
