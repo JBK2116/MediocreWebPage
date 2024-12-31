@@ -1,0 +1,57 @@
+.cta-section {
+    display: flex;
+    flex: 1;
+    justify-content: center; /* Centers the box */
+    align-items: center; /* Vertically aligns the content */
+    background-color: lightblue; /* Background color of the section */
+}
+
+.cta-box {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%; /* Makes the box take up 80% of the section's width */
+    background-color: #3882f6; /* Background color of the box */
+    box-sizing: border-box; /* Ensures padding does not overflow */
+    border-radius: 10px;
+    color: white;
+}
+
+.cta-sign-up-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.cta-box header {
+    margin-top: 2%;
+    margin-left: 10%;
+
+}
+.cta-text {
+    flex: 1; /* Allows the text to take up available space */
+}
+
+.cta-button button {
+    background-color: #3882f6;
+    border-color: white;
+    border: solid;
+    color: #e5e7eb;
+    margin-top: 5px;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+}
+
+footer {
+    flex: 0 1 auto;
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+}
+

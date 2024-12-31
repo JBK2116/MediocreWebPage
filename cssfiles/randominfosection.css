@@ -1,0 +1,58 @@
+/*This is the start of the second section of the main body */
+
+.random-info-section { /*The parent section for this entire section of the html file */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    background-color: lightblue;
+}
+
+.random-info-section-title { /*Title of the random-info section */
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.random-info-section-images { /*The direct child of the random-info section. Where all the image containers go. */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.image-container { /*Stack the image and its subtext over each other and add space between them */
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.image-wrapper { /*Div to contain the image that is in each image container */
+    flex: 1;
+    border: solid;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image-wrapper img { /*This line ensures that the image fits well inside of its div */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.text-wrapper { /*Subtext div that goes under the image wrapper div in each image container */
+    display: flex;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
